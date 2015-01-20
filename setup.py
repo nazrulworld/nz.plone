@@ -19,7 +19,7 @@ setup(
     package_dir={"": "src"},
     namespace_packages=["nz"],
     include_package_data=True,
-    install_requires=["setuptools", "six"],
+    install_requires=["setuptools"],
     zip_safe=False,
     entry_point={
         "console_scripts": {
